@@ -1,0 +1,26 @@
+[
+  {
+    "title": "三国2017私服下载",
+    "description": "IOS 信任教学",
+    "bigImgSrc": "/assets/images/sanguo/sanguo2017p1.jpg",
+    "iosLink": "itms-services://?action=download-manifest&url=itms-services://?action=download-manifest&url=https://privategamedownload.com/sg2017.plist",
+    "androidLink": "https://privategamedownload.com/sg2017.apk",
+    "smallImgSrc": "/assets/images/contact/1.png"
+  },
+  {
+    "title": "游戏账号注册",
+    "description": "这里注册才能充值和福利领取",
+    "bigImgSrc": "/assets/images/contact/2_1.png",
+    "iosLink": "",
+    "androidLink": "",
+    "smallImgSrc": "/assets/images/contact/2.png"
+  },
+  {
+    "title": "储值返利",
+    "description": "点击进入储值返利页面",
+    "bigImgSrc": "/assets/images/contact/4_1.png",
+    "iosLink": "",
+    "androidLink": "",
+    "smallImgSrc": "/assets/images/contact/4.png"
+  }
+]
