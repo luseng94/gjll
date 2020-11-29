@@ -48,19 +48,19 @@ render() {
         {/* server 456 */}
 
         <div style={{position: 'absolute',
-			  top: '75%',
+			  top: '80%',
 			  left: '20px'}}>
         <h2 style={{color:"white"}}>SERVER 4/5/6</h2>
         {/* <Button color="white" action="" content="SERVER 4/5/6" /> */}
         </div>
         <a href="itms-services://?action=download-manifest&url=itms-services://?action=download-manifest&url=https://privategamedownload.com/longEngS4.plist">
           <img src="/assets/images/gjll/ios.png" alt="Logo" height="65px" style={{position: 'absolute',
-          top: '73%',
+          top: '78%',
           right: '90px'}}/>
         </a>
         <a href="http://privatelongwu.com/longEngs4.apk">
           <img src="/assets/images/gjll/android.png" alt="Logo" height="65px" style={{position: 'absolute',
-          top: '73%',
+          top: '78%',
           right: '10px'}}/>
         </a>
 
@@ -68,19 +68,19 @@ render() {
         {/* server 123 */}
 
         <div style={{position: 'absolute',
-			  top: '85%',
+			  top: '95%',
 			  left: '20px'}}>
           <h2 style={{color:"white"}}>SERVER 1/2/3</h2>
         {/* <Button color="white" action="" content="SERVER 1/2/3" /> */}
         </div>
         <a href="itms-services://?action=download-manifest&url=itms-services://?action=download-manifest&url=https://privategamedownload.com/longEng.plist">
           <img src="/assets/images/gjll/ios.png" alt="Logo" height="65px" style={{position: 'absolute',
-          top: '83%',
+          top: '93%',
           right: '90px'}}/>
         </a>
         <a href="http://privatelongwu.com/en6.apk">
           <img src="/assets/images/gjll/android.png" alt="Logo" height="65px" style={{position: 'absolute',
-          top: '83%',
+          top: '93%',
           right: '10px'}}/>
         </a>
 
