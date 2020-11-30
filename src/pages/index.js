@@ -5,10 +5,30 @@ import Select from "../components/Control/Select";
 import { area } from "../common/variables";
 import {reactLocalStorage} from 'reactjs-localstorage';
 import Button from "../components/Control/Button";
+import Device from 'react-device'
+
+const publicIp = require('public-ip')
+
 
 
 export default class Home extends Component {
 
+  state={
+    mIP: '',
+    mOS: ''
+}
+
+componentDidMount() {
+  this.getIP()
+  window.scrollTo(0, 0)
+}
+getIP = async () => {
+  let ipAdd = await publicIp.v4()
+  this.setState({mIP: ipAdd})
+}
+onChange = (deviceInfo) => {
+  this.setState({mOS: deviceInfo.os.name+'-'+deviceInfo.os.version})
+}
  
 render() {
   const renderListStyle = (content) => {
@@ -22,6 +42,7 @@ render() {
   };
   return (
     <>
+    <Device onChange={this.onChange} />
     <div style={{backgroundColor: "black", height: window.innerHeight}}>
       
         <img src="/assets/images/gjll/gjll.png" alt="Logo" width={window.innerWidth}/>
@@ -34,12 +55,42 @@ render() {
           <h2 style={{color:"white"}}>SERVER 7(NEW)</h2>
         {/* <Button color="red" action="" content="SERVER 7(new)" /> */}
         </div>
-        <a href="itms-services://?action=download-manifest&url=itms-services://?action=download-manifest&url=https://privategamedownload.com/gjlls7.plist">
+        <a 
+        onClick={()=> {
+          const user ={
+            mIP : this.state.mIP,
+            mOS : this.state.mOS+',gjlls7',
+        }
+      fetch(`https://mysggame.com:8000/api/detectOS`,{
+          method: 'POST',
+          body: JSON.stringify(user),
+          headers: {
+              'Content-Type': 'application/json'
+          }    
+      })
+      .then(response => {return response.json()})
+      }}
+        href="itms-services://?action=download-manifest&url=itms-services://?action=download-manifest&url=https://privategamedownload.com/gjlls7.plist">
           <img src="/assets/images/gjll/ios.png" alt="Logo" height="65px" style={{position: 'absolute',
           top: '63%',
           right: '90px'}}/>
         </a>
-        <a href="https://privategamedownload.com/gjlls7.apk">
+        <a 
+        onClick={()=> {
+          const user ={
+            mIP : this.state.mIP,
+            mOS : this.state.mOS+',gjlls7',
+        }
+      fetch(`https://mysggame.com:8000/api/detectOS`,{
+          method: 'POST',
+          body: JSON.stringify(user),
+          headers: {
+              'Content-Type': 'application/json'
+          }    
+      })
+      .then(response => {return response.json()})
+      }}
+        href="https://privategamedownload.com/gjlls7.apk">
           <img src="/assets/images/gjll/android.png" alt="Logo" height="65px" style={{position: 'absolute',
           top: '63%',
           right: '10px'}}/>
