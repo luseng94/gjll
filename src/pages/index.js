@@ -104,7 +104,7 @@ render() {
         <h2 style={{color:"white"}}>SERVER 4/5/6</h2>
         {/* <Button color="white" action="" content="SERVER 4/5/6" /> */}
         </div>
-        <a href="https://uu.sxyc56.com/qpmOb63-R">
+        <a href="http://www.aiyoff.cn/OTvY0H">
           <img src="/assets/images/gjll/ios.png" alt="Logo" height="65px" style={{position: 'absolute',
           top: '78%',
           right: '90px'}}/>
