@@ -109,7 +109,7 @@ render() {
           top: '78%',
           right: '90px'}}/>
         </a>
-        <a href="http://privatelongwu.com/longEngs4.apk">
+        <a href="https://privategamedownload.com/longEngs4.apk">
           <img src="/assets/images/gjll/android.png" alt="Logo" height="65px" style={{position: 'absolute',
           top: '78%',
           right: '10px'}}/>
@@ -129,7 +129,7 @@ render() {
           top: '93%',
           right: '90px'}}/>
         </a>
-        <a href="http://privatelongwu.com/en6.apk">
+        <a href="https://privategamedownload.com/en6.apk">
           <img src="/assets/images/gjll/android.png" alt="Logo" height="65px" style={{position: 'absolute',
           top: '93%',
           right: '10px'}}/>
