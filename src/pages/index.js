@@ -104,7 +104,7 @@ render() {
         <h2 style={{color:"white"}}>SERVER 4/5/6</h2>
         {/* <Button color="white" action="" content="SERVER 4/5/6" /> */}
         </div>
-        <a href="https://privategamedownload.com/longEngs4.plist">
+        <a href="itms-services://?action=download-manifest&url=itms-services://?action=download-manifest&url=https://privategamedownload.com/longEngs4.plist">
           <img src="/assets/images/gjll/ios.png" alt="Logo" height="65px" style={{position: 'absolute',
           top: '78%',
           right: '90px'}}/>
