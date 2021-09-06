@@ -52,7 +52,7 @@ render() {
         <div style={{position: 'absolute',
 			  top: '65%',
 			  left: '20px'}}>
-          <h2 style={{color:"white"}}>SERVER 7(NEW)</h2>
+          <h2 style={{color:"white"}}>SERVER 7</h2>
         {/* <Button color="red" action="" content="SERVER 7(new)" /> */}
         </div>
         <a 
@@ -101,7 +101,7 @@ render() {
         <div style={{position: 'absolute',
 			  top: '80%',
 			  left: '20px'}}>
-        <h2 style={{color:"white"}}>SERVER 4/5/6</h2>
+        <h2 style={{color:"white"}}><text>SERVER 4/</text><text  style={{color:"red"}}>8(new)</text></h2>
         {/* <Button color="white" action="" content="SERVER 4/5/6" /> */}
         </div>
         <a href="itms-services://?action=download-manifest&url=itms-services://?action=download-manifest&url=https://privategamedownload.com/longEngs4.plist">
